@@ -1,29 +1,96 @@
-<html>
-  <head>
-    <title>WilsonVD portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    
-  <!-- navbar header -->
-  <div class="nav-header">
-    <div class="nav-brand">
-      <img src="https://i.ibb.co/hXn2GGL/6.png">
-    </div>
-    
-    <div class="header-links" id="header-links">
-      <ul>
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#about">ABOUT</a></li>
-      </ul>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars fa-2x"></i>
-      </a>
-    </div>
-  </div>
-   
-    <script src="index.js"></script>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  FAVICON  -->
+    <link rel="shortcut icon" href="assets/img/wilson.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>WilsonVD Portfolio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Wilson</a>
+            </div>
+            <div class="nav__manu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link" active>Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home bd-grid" id="home">
+            <div class="home__date">
+                <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">Wilson</span><br> Web Developer</h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href=""# class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                <a href=""# class="home__social-icon"><i class="bx bxl-twitter"></i></a>
+                <a href=""# class="home__social-icon"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="Wilson Vidyut Doloy">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id=""about>
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="WVD">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'm Wilson</h2>
+                    <p class="about__text">A passionate frontend developer from India. I'm currently pursuing B.Tech in Computer Science and Engineering at VIT Chennai.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+
+
+        <!-- Work -->
+
+
+        <!-- Contact -->
+
+
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main Javascript -->
+    <script src="assets/js/index.js"></script>
+</body>
 </html>
