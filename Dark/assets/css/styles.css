@@ -351,3 +351,45 @@ img {
   border-radius: .5rem;
   z-index: var(--z-back);
 }
+
+.skills__html{
+  width: 95%;
+}
+.skills__css{
+  width: 65%;
+}
+.skills__js{
+  width: 55%;
+}
+.skills__python{
+  width: 75%;
+}
+.skills__cpp{
+  width: 45%;
+}
+.skills__java{
+  width: 55%;
+}
+
+.skills__img {
+  border-radius: .5rem;
+}
+
+/* PROJECT */
+.project__container {
+  row-gap: 2rem;
+}
+
+.project__img {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.project__img img {
+  transition: 1s;
+}
+
+.project__img img:hover {
+  transform: scale(1.1);
+}
