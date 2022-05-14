@@ -274,6 +274,7 @@ img {
 
 .home__social-icon:hover {
   color: var(--first-color);
+  /* transform: scale(1.5); */
 }
 
 .home__img {
@@ -410,6 +411,7 @@ img {
 .project__img {
   /* box-shadow: 0px 4px 25px var(--text); */
   box-shadow: 0px 0.5px 10px var(--text);
+  padding-top: 20px;
   border-radius: .5rem;
   overflow: hidden;
 }
@@ -655,7 +657,7 @@ img {
   bottom: 4px;
   content: " ";
   height: 15px;
-  left: 2px;
+  left: 3px;
   position: absolute;
   transition: .4s;
   width: 15px;
@@ -667,7 +669,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  transform: translateX(21px);
+  transform: translateX(20px);
 }
 
 .slider.round {
@@ -676,4 +678,24 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #ccc;  */
+  background: var(--background);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--first-color); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #188694; 
 }
