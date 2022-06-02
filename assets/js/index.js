@@ -56,7 +56,7 @@ sr.reveal('.home__social-icon',{ interval: 200});
 sr.reveal('.skills__data, .project__img, .contact__input',{interval: 200}); 
 
 
-// Dark Mode toggle
+
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
@@ -82,3 +82,8 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+// Visit Count
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
